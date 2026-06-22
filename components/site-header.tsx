@@ -73,6 +73,10 @@ export function SiteHeader() {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden border-t border-border bg-background px-6 pb-6 pt-4">
+          <span className="block font-heading font-800 text-2xl tracking-wider uppercase leading-none mb-5">
+            <span className="text-primary">Mexico</span>{' '}
+            <span className="font-400 text-stroke-thin text-foreground">Rugby</span>
+          </span>
           <nav className="flex flex-col gap-5" aria-label="Menú móvil">
             {navLinks.map((link) => (
               <Link
